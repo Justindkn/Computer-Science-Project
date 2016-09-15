@@ -1,0 +1,110 @@
+html{
+    flex-wrap: wrap;
+	background: url("http://churchlife.nd.edu/wp-content/uploads/2016/04/ComputerScience.jpg") no-repeat center fixed;
+	background-size:cover;
+}
+
+.navbar{
+    display:inline-block;
+    column-count: 3;
+	-moz-column-count: 3;
+    margin:auto;
+	background-size:cover;
+}
+
+.Main_Title{
+    font-size:60px;
+    font-style:oblique;
+    color:Orange;
+    Border-style:solid;
+    Border-width:12px;
+    Border-color:Blue;
+    padding:10px;
+    text-align:center;
+    margin: 10%;
+	min-width: 1000px;
+	background-color:white;
+}
+.about_me{
+    margin-left:8rem;
+    margin-top: 70px;
+    font-size:200%;
+    Border-style:solid;
+    border-color:black;
+    border-width: 10px;
+    text-align:center;
+    width:15%;
+    height:20%;
+    min-width: 200px;
+	background-color:white;
+}
+
+.hardware{
+    margin-left:8rem;
+    margin-top:50px;
+    font-size:200%;
+    Border-style:solid;
+    border-color:black;
+    border-width: 10px;
+    text-align:center;
+    width:15%;
+    height:20%;
+    min-width: 200px;
+	background-color:white;
+}
+
+.Calculator{
+    margin-left:4rem;
+    margin-top:50px;
+    font-size:200%;
+    Border-style:solid;
+    border-color:black;
+    border-width: 10px;
+    text-align:center;
+    width:15%;
+    height:20%;
+    min-width: 200px;
+	background-color:white;
+}
+
+.Todo{
+    margin-left:4rem;
+    margin-top:50px;
+    font-size:200%;
+    Border-style:solid;
+    border-color:black;
+    border-width: 10px;
+    text-align:center;
+    width:15%;
+    height:20%;
+    min-width: 200px;
+	background-color:white;
+}
+
+.Vindinium{
+    margin-top:50px;
+    font-size:200%;
+    Border-style:solid;
+    border-color:black;
+    border-width: 10px;
+    text-align:center;
+    width:15%;
+    height:20%;
+    min-width: 200px;
+	background-color:white;
+}
+
+.Big_Project{
+    margin-top:50px;
+    font-size:200%;
+    Border-style:solid;
+    border-color:black;
+    border-width: 10px;
+    text-align:center;
+    width:15%;
+    height:20%;
+    min-width: 200px;
+	background-color:white;
+}
+
+
