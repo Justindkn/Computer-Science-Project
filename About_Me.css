@@ -1,0 +1,126 @@
+html{
+	border: 3rem solid transparent;
+	flex-wrap:wrap;
+	background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.8), rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0.8), rgba(0,0,0,1));
+	text-align:center;
+	border-image: url("https://cdn.vectorstock.com/i/composite/36,50/colorful-border-from-cubes-vector-1163650.jpg") 30 round;
+}
+
+
+.Main_Title{
+	Border-Style: Solid;
+	Border-width:12px;
+	Border-color: Red;
+	Font-size: 70px;
+	color: Yellow;
+	Font-family:sans-sarif;
+	text-align:center;
+	margin-left: 30%;
+	margin-right:30%;
+	margin-bottom:10%;
+	background-color: Black;
+	min-width:150px
+}
+
+.Generic_Stuff{
+	Border-style: Groove;
+	Border-width: 10px;
+	Border-color: #8c8c8c;
+	Font-size:50px;
+	color: #b32d00;
+	padding: 12px;
+	text-align:center;
+	margin-left: 25%;
+	margin-right:25%;
+	margin-bottom:5%;
+	background-color:white;
+	min-width:200px
+}
+
+.Garfield{
+	Width:50%;
+	Height: 50%;
+	min-width:100px;
+	text-align:center;
+}
+
+.Generic_Paragraph{
+	Border-style: Hidden;
+	Background-color: #737373;
+	font-size: 30px;
+	color: white;
+	padding: 40px;
+	margin-left: 20%;
+	margin-right:20%;
+	margin-bottom:10%;
+	text-align: left;
+	min-width:150px;
+	text-indent:200px;
+}
+
+.Other_Stuff{
+	Border-Style:Double;
+	Border-Color:Yellow;
+	Border-width:12px;
+	Font-family:sans-sarif;
+	Font-size:40px;
+	Color:Green;
+	Background-color:black;
+	padding:12px;
+	margin-left: 40%;
+	margin-right:40%;
+	margin-bottom:5%;
+	Text-align:center;
+	min-width:150px;
+}
+
+.Other_Paragraph{
+	Border-style: inset;
+	Border-width: 12px;
+	Border-color: #00ff00;
+	Font-size: 20px;
+	Padding: 40px;
+	background-color: White;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 20%;
+	min-width:150px;
+	text-align:left
+}
+
+
+.Links{
+	background-color:white;
+	margin-bottom: 10%;
+	padding: 10px;
+	margin-top: 10px;
+	text-align: center;
+	border-width:12px;
+	border-color: black;
+	border-style:solid;
+}
+
+nav{
+	margin-bottom:50px;
+	margin-top:50px;
+}
+
+nav li {
+	padding:10px;
+	display: inline;
+	background-color:white;
+	Border-style:solid;
+	border-width:12px;
+	border-color: orange;
+	text-align: center;
+	color:white;
+	margin: auto;
+	margin: 20px;
+}
+
+nav ul {
+	display: inline;
+	font-size: 20px;
+	text-align: center;
+	color:white;
+}
