@@ -1,4 +1,4 @@
-html{
+.html{
     flex-wrap: wrap;
 	background: url("http://churchlife.nd.edu/wp-content/uploads/2016/04/ComputerScience.jpg") no-repeat center fixed;
 	background-size:cover;
@@ -27,7 +27,7 @@ html{
 }
 .about_me{
     margin-left:8rem;
-    margin-top: 70px;
+    margin-top:30px;
     font-size:200%;
     Border-style:solid;
     border-color:black;
@@ -37,11 +37,13 @@ html{
     height:20%;
     min-width: 200px;
 	background-color:white;
+	height:300px;
+	
 }
 
 .hardware{
     margin-left:8rem;
-    margin-top:50px;
+    margin-top:30px;
     font-size:200%;
     Border-style:solid;
     border-color:black;
@@ -51,11 +53,12 @@ html{
     height:20%;
     min-width: 200px;
 	background-color:white;
+	height:300px;
 }
 
 .Calculator{
     margin-left:4rem;
-    margin-top:50px;
+    margin-top:30px;
     font-size:200%;
     Border-style:solid;
     border-color:black;
@@ -65,11 +68,12 @@ html{
     height:20%;
     min-width: 200px;
 	background-color:white;
+	height:300px;
 }
 
 .Todo{
     margin-left:4rem;
-    margin-top:50px;
+    margin-top:30px;
     font-size:200%;
     Border-style:solid;
     border-color:black;
@@ -79,10 +83,11 @@ html{
     height:20%;
     min-width: 200px;
 	background-color:white;
+	height:300px;
 }
 
 .Vindinium{
-    margin-top:50px;
+    margin-top:30px;
     font-size:200%;
     Border-style:solid;
     border-color:black;
@@ -92,10 +97,11 @@ html{
     height:20%;
     min-width: 200px;
 	background-color:white;
+	height:300px;
 }
 
 .Big_Project{
-    margin-top:50px;
+    margin-top:30px;
     font-size:200%;
     Border-style:solid;
     border-color:black;
@@ -105,6 +111,24 @@ html{
     height:20%;
     min-width: 200px;
 	background-color:white;
+	height:300px;
 }
 
+.How_To{
+    margin-top:20px;
+    font-size:200%;
+    Border-style:solid;
+    border-color:black;
+    border-width: 10px;
+    text-align:center;
+    width:15%;
+    height:20%;
+    min-width: 200px;
+	background-color:white;
+	height:300px;
+	margin-left:38%;
+}
 
+a:visited {
+  color : black;
+}

@@ -1,5 +1,4 @@
 html{
-	margin-left:10%;
 	background: url("http://jaypcet.weebly.com/uploads/2/6/6/2/26628301/2592063_orig.jpg") no-repeat center fixed;
 	background-size:cover;
 	flex-wrap:wrap;
@@ -16,6 +15,7 @@ html{
 	text-align: center;
 	min-width: 250px;
 	background-color: white;
+	margin-left:10%;
 }
 
 .Hardware{
@@ -25,6 +25,7 @@ html{
 	color:white;
 	padding: 50px;
 	background-color:black;
+	margin-left:10%;
 }
 
 .Hardware_Title{
@@ -48,11 +49,11 @@ html{
 	border-style:double;
 	margin-right:20%;
 	padding:50px;
-	
+	margin-left:10%;
 }
 
 .Mobo_Title{
-	Font-size: 40px
+	Font-size: 40px;
 	
 }
 
@@ -70,6 +71,7 @@ html{
 	border-color:#0000ff;
 	border-style:outset;
 	padding: 50px;
+	margin-left:10%;
 }
 
 .CPU_Title{
@@ -90,6 +92,7 @@ html{
 	border-color:black;
 	border-style:dashed;
 	padding: 50px;
+	margin-left:10%;
 }
 
 .RAM_Title{
@@ -111,6 +114,7 @@ html{
 	border-width: 12px;
 	border-style:groove;
 	padding:50px;
+	margin-left:10%;
 }
 
 .HD_Title{
@@ -119,7 +123,7 @@ html{
 }
 
 .HD_Image{
-	text-align:center;
+	
 }
 
 .BUS{
@@ -132,6 +136,7 @@ html{
 	border-color: orange;
 	background-color: black;
 	padding: 50px;
+	margin-left:10%;
 }
 
 .BUS_Title{
@@ -154,6 +159,7 @@ html{
 	border-width: 12px;
 	border-color: white;
 	background-color: black;
+	margin-left:10%;
 }
 
 .Devices_Title{
@@ -163,9 +169,10 @@ html{
 
 .Links{
 	background-color:white;
-	margin-bottom: 10%;
-	Margin-right: 10%;
-	padding: 10px;
+	margin-bottom: 5%;
+	margin-left:10%;
+	margin-right:10%;
+	padding: 5px;
 	margin-top: 10px;
 	text-align: center;
 	border-width:12px;
@@ -176,10 +183,11 @@ html{
 nav{
 	margin-bottom:50px;
 	margin-top:50px;
+	text-align:center;
 }
 
 nav li {
-	padding:10px;
+	padding:15px;
 	display: inline;
 	background-color:#cccccc;
 	Border-style:solid;
@@ -187,8 +195,8 @@ nav li {
 	border-color: red;
 	text-align: center;
 	color:white;
-	margin: auto;
-	margin: 20px;
+	margin-bottom:20px;
+	margin-top:20px;
 }
 
 nav ul {
@@ -197,3 +205,8 @@ nav ul {
 	text-align: center;
 	color:white;
 }
+
+a:visited {
+  color : blue;
+}
+

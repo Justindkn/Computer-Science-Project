@@ -1,0 +1,341 @@
+html{
+	flex-wrap: wrap;
+	background-size:cover;
+	text-align:center;
+	background: linear-gradient(to top, rgba(0,0,0,1),rgba(0,0,0,0.9),rgba(0,0,0,0.6), rgba(0,0,0,0.6),rgba(0,0,0,0.6), rgba(0,0,0,0.7),rgba(0,0,0,0.9),rgba(0,0,0,1))no-repeat center fixed;
+}
+
+.Links{
+	background-color:black;
+	margin-bottom: 5%;
+	padding: 5px;
+	margin-top: 10px;
+	text-align: center;
+	border-width:12px;
+	border-color: white;
+	border-style:solid;
+	min-width: 1400px;
+}
+
+
+.Main_Title{
+	background-color:black;
+	font-size: 50px;
+	color: white;
+	padding: 20px;
+	margin-left:20%;
+	margin-right:20%;
+	margin-top:30px;
+	min-width: 700px;
+	text-align:center;
+	border-style: groove;
+	border-color: yellow;
+	border-width: 12px;
+}
+
+.HTML{
+	padding: 30px;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 50px;
+	border-style: solid;
+	border-width: 12px;
+	border-color: #ff9900;
+	text-align: left;
+}
+
+.HTML_Title{
+	font-size: 40px;
+	color: orange;
+}
+
+.p1{
+	font-size: 30px;
+}
+
+.Tag_Def{
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 50px;
+	border-style: double;
+	border-width: 12px;
+	border-color: #ff0000;
+	text-align: left;
+	padding: 30px;
+}
+
+.Tags{
+	font-size: 40px;
+	color:#ff0000;
+}
+
+.p2{
+	font-size: 30px;
+}
+
+.Some_Tags{
+	font-size: 50px;
+	color:white;
+	border-style: solid;
+	border-width: 12px;
+	border-color: black;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 100px;
+	margin-top: 400px;
+	padding: 30px;
+}
+
+.HTML_Def{
+	column-count: 2;
+	-moz-column-count: 2;
+	text-align: center;
+}
+
+.div{
+
+	width: 70%;
+	height: 70%;
+	padding:20px;
+	margin-left: 20%;
+	font-size: 20px;
+}
+
+.h{
+	margin-top: 50px;
+	width: 70%;
+	height: 80%;
+	padding: 20px;
+	margin-left: 20%;
+	font-size: 20px;
+}
+
+.p{
+	margin-top: 50px;
+	width: 70%;
+	height: 70%;
+	padding:20px;
+	margin-left: 10%;
+	font-size: 20px;
+}
+.list{
+	margin-top: 50px;
+	width: 70%;
+	height: 80%;
+	padding: 20px;
+	margin-left: 10%;
+	font-size: 20px;
+}
+
+.Ex1{
+	border-top: 12px;
+	border-left: 6px;
+	border-style: solid;
+	border-color: #00cc00;
+	padding:20px;
+}
+
+.Ex2{
+	border-bottom: 12px;
+	border-left: 6px;
+	border-style: solid;
+	border-color: #00cc00;
+	padding:20px;
+}
+
+.Ex3{
+	border-top: 12px;
+	border-right:6px;
+	border-style: solid;
+	border-color: #00cc00;
+	padding:20px;
+}
+
+.Ex4{
+	border-bottom: 12px;
+	border-right: 6px;
+	border-style: solid;
+	border-color: #00cc00;
+	text-align:left;
+	padding:20px;
+	font-size: 20px;
+}
+
+.Links1{
+	color:white;
+	margin-top: 50px;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 20px;
+	border-style: solid;
+	border-width: 12px;
+	border-color:black;
+}
+
+
+.How_To_CSS{
+	background-color:black;
+	font-size: 50px;
+	color: white;
+	padding: 20px;
+	margin-left:20%;
+	margin-right:20%;
+	margin-top:200px;
+	min-width: 700px;
+	text-align:center;
+	border-style: groove;
+	border-color: yellow;
+	border-width: 12px;
+}
+
+.CSS{
+	padding: 30px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 50px;
+	margin-bottom: 200px;
+	border-style: solid;
+	border-width: 12px;
+	border-color: white;
+	text-align: left;
+	font-size: 20px;
+	color:white;
+}
+
+
+.Basic_CSS{
+	
+}
+
+.Ex{
+	
+	border-style: solid;
+	border-color: black;
+	border-width: 12px;
+	text-align:left;
+	padding:20px;
+	font-size: 50px;
+	color: white;
+	text-align:center;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.font{
+	font-size: 30px;
+	text-align: left;
+	border-width: 12px;
+	border-color: red;
+	border-style: solid;
+	padding: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 50px;
+}
+
+.Before{
+	font-size: 16px;
+	text-align:center;
+}
+
+.After{
+	font-size:30px;
+	color: white;
+	text-align:center;
+}
+
+.After_code{
+	margin-left: 40%
+}
+
+.border{
+	font-size: 30px;
+	margin-top: 200px;
+}
+
+.border_ex{
+	border-width: 12px;
+	border-color: black;
+	border-style: solid;
+	font-size: 20px;
+	text-align:left;
+	padding: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 20px;
+}
+
+.margin_padding{
+	border-width: 12px;
+	border-color: #000099;
+	border-style: solid;
+	margin: auto;
+	margin: 50px;
+	font-size: 30px;
+	color:white;
+	padding: 20px;
+	margin-left: 10%;
+	width: 70%;
+}
+
+.margin{
+	margin: auto;
+	margin: 100px;
+	text-align: left;
+	border-width: 12px;
+	border-color: yellow;
+	border-style: solid;
+	font-size: 30px;
+}
+
+.padding{
+	padding: 50px;
+	text-align: left;
+	border-width: 12px;
+	border-color: yellow;
+	border-style: solid;
+	font-size: 30px;
+}
+
+.Links2{
+	margin:auto;
+	margin:50px;
+	padding: 30px;
+	color: white;
+	font-size: 30px;
+}
+
+nav{
+	margin-bottom:50px;
+	margin-top:50px;
+	min-width: 1200px
+}
+
+nav li {
+	padding:10px;
+	display: inline;
+	background-color:black;
+	Border-style:solid;
+	border-width:12px;
+	border-color: red;
+	text-align: center;
+	color:white;
+	margin: auto;
+	margin: 20px;
+	min-width: 1200px;
+}
+
+nav ul {
+	display: inline;
+	font-size: 20px;
+	text-align: center;
+	color:white;
+	min-width: 1200px
+}
+
+a:visited {
+  color : white;
+}
+
+
+
