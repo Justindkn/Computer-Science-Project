@@ -1,0 +1,95 @@
+
+html{
+	text-align:center;
+	background-color:black;
+}
+
+.Input1{
+	width: 200px;
+}
+
+.Input2{
+	width: 200px;
+}
+
+
+.Calculator{
+	background-color: #003300;
+	color:#ffffff; 
+	text-align:center;
+	padding: 30px;
+	border-style: inset;
+	border-color: #00ff00;
+	border-width: 12px;
+	margin-left: 30%;
+	margin-right: 30%;
+	min-width: 200px;
+	font-family: Arial;
+}
+
+.Title{
+	
+}
+
+.Links{
+	margin-bottom: 10%;
+	padding: 10px;
+	margin-top: 10px;
+	text-align: center;
+	min-width: 1400px;
+}
+
+.Links_2{
+	text-align: center;
+	margin-top: 100px;
+	min-width: 700px;
+}
+
+.SButton{
+	text-align: center;
+	margin-top: 25px;
+}
+
+option{
+	text-align: center;
+	
+}
+
+input{
+	text-align: center;
+	width: 10%;
+}
+
+nav{
+	margin-top:50px;
+	margin-bottom:50px;
+	
+}
+
+nav li {
+	padding:10px;
+	display: inline;
+	background-color: #003300;
+	Border-style:outset;
+	border-width:12px;
+	border-color: #00ff00;
+	text-align: center;
+	color:white;
+	margin: auto;
+	margin: 20px;
+}
+
+nav ul {
+	display: inline;
+	font-size: 20px;
+	text-align: center;
+	color:white;
+}
+
+a:visited {
+  color : white;
+}
+
+a{
+	color: white;
+}

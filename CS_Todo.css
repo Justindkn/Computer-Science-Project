@@ -1,0 +1,98 @@
+html{
+	
+}
+
+.options{
+	text-align:center;
+}
+
+.Input1{
+	width: 25%;
+	text-align: center;
+}
+
+.Input4{
+	width: 25%;
+	text-align: center;
+}
+
+.Button1{
+	width: 25%;
+	text-align: center;
+}
+
+.Input2{
+	width: 25%;
+	text-align: center;
+}
+
+.Button2{
+	width: 25%;
+	text-align: center;
+}
+
+.title{
+	font-size: 50px;
+}
+
+.Checklist{
+	padding-left: 400px;
+	padding-right: 400px;
+	text-align:center;
+}
+
+
+.Links{
+	background-color:white;
+	margin-bottom: 10%;
+	padding: 10px;
+	margin-top: 10px;
+	text-align: center;
+	border-width:12px;
+	border-color: black;
+	border-style:solid;
+}
+
+.Links_2{
+	text-align: center;
+	margin-top: 100px;
+	min-width: 700px;
+}
+
+nav{
+	margin-bottom:50px;
+	margin-top:50px;
+}
+
+nav li {
+	padding:10px;
+	display: inline;
+	background-color:white;
+	Border-style:solid;
+	border-width:12px;
+	border-color: orange;
+	text-align: center;
+	color:white;
+	margin: auto;
+	margin: 20px;
+}
+
+nav ul {
+	display: inline;
+	font-size: 20px;
+	text-align: center;
+	color:white;
+}
+
+a:visited {
+  color : blue;
+}
+
+input[type='checkbox'] {
+    transform: scale(2);
+}
+
+select{
+
+}
+

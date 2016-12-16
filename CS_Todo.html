@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+
+	<link rel="stylesheet" type="text/css" href="CS_Todo.css"/>	
+	<meta charset="UTF-8">
+	<div class="Links">
+			<nav>
+				<ul>
+					<li><a href="CS_Main2.html"><b>HOME</b></a></li>
+					<li><a href="CS_Hardware.html"><b>Hardware</b></a></li>
+					<li><a href="CS_Calculator.html"><b>Calculator</b></a></li>
+					<li><a href="CS_About_Me.html"><b>Todo List</b></a></li>
+					<li><a href="CS_Vindinium.html"><b>Vindinium</b></a></li>
+					<li><a href="CS_Big_Project.html"><b>The Big Project</b></a></li>
+					<li><a href="CS_How_To.html"><b>How To</b></a></li>
+				</ul>
+			</nav>
+		</div>
+
+<body>
+	<div class="options">
+	
+		<input id="input2" type="text" name="quantity" value="Type in a Background Color" input style="font-size:25px" class="Input2">
+		<button id="submitBackBtn" class="Button2" button style="font-size:25px"> Change Page Background Color </button>
+	
+	<br><br><br>
+	
+		<input id="input1" type="text" name="quantity" value="Type in a Background Color" input style="font-size:25px" class="Input1">
+		<button id="submitBtn" class="Button1" button style="font-size:25px"> Change List Background Color </button>
+	
+	<br><br><br>
+	
+	
+	<select id="dropDown" style="font-size:25px" class="Input2">
+				<option value="None">Select a Border Color</option>
+				<option value="Pink">Pink </option>
+				<option value="Red">Red</option>
+				<option value="Orange">Orange</option>
+				<option value="Yellow">Yellow</option>
+				<option value="Green">Green</option>
+				<option value="Blue">Blue</option>
+				<option value="Purple">Purple</option>
+				<option value="Black">Black</option>
+				<option value="White">White</option>
+			</select>
+	<button id="submitBorderBtn" class="Button2" button style="font-size:25px"> Change Border Color </button>	
+	
+	<br><br><br>
+	
+	<select id="dropDown2" style="font-size:25px" class="Input2">
+				<option value="None">Default Color(Black)</option>
+				<option value="Pink">Pink </option>
+				<option value="Red">Red</option>
+				<option value="Orange">Orange</option>
+				<option value="Yellow">Yellow</option>
+				<option value="Green">Green</option>
+				<option value="Blue">Blue</option>
+				<option value="Purple">Purple</option>
+				<option value="White">White</option>
+			</select>
+	<button id="submitFontBtn" class="Button2" button style="font-size:25px"> Change Font Color </button>
+	<BR><BR><BR><BR>
+	</div>
+<!-- Start of Checklist-->		
+	<div id="potato" class="Checklist">	
+		<div id="parent" style="padding: 50px">
+			<h1 id="checkList" class="title">Checklist</h1>
+				<br>&nbsp;&nbsp;<input type="button" id="creation" value="Add List Item" style="font-size:25px; width: 200px;"/><br><br>
+			<div id="theform_div">
+				<input type="checkbox" value="" />
+				<input type="text" value="" size="30" style="padding: 5px; font-size:25px;"/>
+			</div>
+				<br>&nbsp;&nbsp;<input type="button" value="Delete Checklist" onClick="delete_fields();" style="font-size:25px;"/>
+			<br><br><br>
+		</div>
+	</div>
+    <p>&nbsp;</p>
+	
+<!-- End of Checklist -->
+		<div class="Links_2">
+				<nav>
+					<ul>
+						<li><a href="CS_Hardware.html"><b><<< Back</b></a></li>
+						<li><a href="CS_Main2.html"><b>>>> Home <<<</b></a></li>
+						<li><a href="CS_Todo.html"><b>Next >>></b></a></li>
+					</ul>
+				</nav>
+			</div>
+			
+	<script src="Todo.js"></script>
+	
+</body>
+</html>
+
+<!-- -->	

@@ -2,7 +2,7 @@ html{
 	flex-wrap: wrap;
 	background-size:cover;
 	text-align:center;
-	background: linear-gradient(to top, rgba(0,0,0,1),rgba(0,0,0,0.9),rgba(0,0,0,0.6), rgba(0,0,0,0.6),rgba(0,0,0,0.6), rgba(0,0,0,0.7),rgba(0,0,0,0.9),rgba(0,0,0,1))no-repeat center fixed;
+	background: linear-gradient(to top,rgba(0,0,0,0.7) ,rgba(0,0,0,0.8), rgba(0,0,0,0.9), rgba(0,0,0,0.9), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,0.9), rgba(0,0,0,0.9),rgba(0,0,0,0.8),rgba(0,0,0,0.7))no-repeat center fixed;
 }
 
 .Links{
@@ -29,7 +29,7 @@ html{
 	min-width: 700px;
 	text-align:center;
 	border-style: groove;
-	border-color: yellow;
+	border-color: Black;
 	border-width: 12px;
 }
 
@@ -44,6 +44,16 @@ html{
 	text-align: left;
 }
 
+.How_To_Links{
+	border-style: Solid;
+	border-color: #663300;
+	border-width: 12px;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding: 30px;
+	background-color: black;
+}
+
 .HTML_Title{
 	font-size: 40px;
 	color: orange;
@@ -51,6 +61,7 @@ html{
 
 .p1{
 	font-size: 30px;
+	color: white;
 }
 
 .Tag_Def{
@@ -71,6 +82,7 @@ html{
 
 .p2{
 	font-size: 30px;
+	color: white;
 }
 
 .Some_Tags{
@@ -184,7 +196,7 @@ html{
 	min-width: 700px;
 	text-align:center;
 	border-style: groove;
-	border-color: yellow;
+	border-color: White;
 	border-width: 12px;
 }
 
@@ -240,7 +252,7 @@ html{
 
 .After{
 	font-size:30px;
-	color: white;
+	color: Red;
 	text-align:center;
 }
 
@@ -255,7 +267,7 @@ html{
 
 .border_ex{
 	border-width: 12px;
-	border-color: black;
+	border-color: white;
 	border-style: solid;
 	font-size: 20px;
 	text-align:left;
@@ -267,7 +279,7 @@ html{
 
 .margin_padding{
 	border-width: 12px;
-	border-color: #000099;
+	border-color: black;
 	border-style: solid;
 	margin: auto;
 	margin: 50px;
@@ -303,6 +315,106 @@ html{
 	padding: 30px;
 	color: white;
 	font-size: 30px;
+}
+
+.JS_Title{
+	font-size: 40px;
+	color: white;
+}
+
+.JS_Desc{
+	font-size: 30px;
+	color: white;
+	Border-color: #00ff00;
+	border-width: 12px;
+	border-style: Solid;
+	padding:20px;
+	margin-left: 30%;
+	margin-right:30%;
+}
+
+.surprise{
+	 border-color: green; 
+	 border-width: 12px; 
+	 border-style: solid;
+	 padding: 20px;
+	 margin-left: 35%;
+	 margin-right: 35%;
+	 font-size: 40px;
+}
+
+.Start_Title{
+	Margin-top: 100px;
+}
+
+.Starting_Off{
+	font-size: 30px;
+	color: white;
+	Border-color: #00ff00;
+	border-width: 12px;
+	border-style: Solid;
+	padding:20px;
+	margin-left: 30%;
+	margin-right:30%;
+}
+
+
+.JS_Var{
+	 border-color: green; 
+	 border-width: 12px; 
+	 border-style: solid;
+	 padding: 20px;
+	 margin-left: 20%;
+	 margin-right: 20%;
+	 margin-top: 100px;
+	 font-size: 25px;
+}
+
+.Var_How{
+	font-size: 20px;
+	color: white;
+	Border-color: #00ff00;
+	border-width: 12px;
+	border-style: Solid;
+	padding:20px;
+	margin-left: 20%;
+	margin-right:20%;
+}
+
+.Doing_Stuff{
+	border-color: green; 
+	border-width: 12px; 
+	border-style: solid;
+	padding: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 100px;
+	margin-bottom:100px;
+	font-size: 25px;
+}
+
+.TRAP{
+	font-size: 20px;
+	color: white;
+	Border-color: #00ff00;
+	border-width: 12px;
+	border-style: Solid;
+	padding:20px;
+	margin-left: 30%;
+	margin-right:30%;
+	margin-top:50px;
+}
+
+.Example{
+	border-color: green; 
+	border-width: 12px; 
+	border-style: solid;
+	padding: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 100px;
+	margin-bottom:100px;
+	font-size: 25px;
 }
 
 nav{

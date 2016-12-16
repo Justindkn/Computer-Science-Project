@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="CS_How_To.css"/>
+<html class="html">
+	<body link="white">
+		<div class="Links">
+			<nav>
+				<ul>
+					<li><a href="CS_Main2.html"><b>HOME</b></a></li>
+					<li><a href="CS_About_Me.html"><b>Who Am I?</b></a></li>
+					<li><a href="CS_Hardware.html"><b>Hardware</b></a></li>
+					<li><a href="CS_Calculator.html"><b>Calculator</b></a></li>
+					<li><a href="CS_Todo.html"><b>Todo List</b></a></li>
+					<li><a href="CS_Vindinium.html"><b>Vindinium</b></a></li>
+					<li><a href="CS_Big_Project.html"><b>The Big Project</b></a></li>
+				</ul>
+			</nav>
+		</div>
+			<h1 class="How_To_CSS"> How to CSS </h1>
+			<div class="CSS">
+				<h2> What is CSS </h2>
+					<p>CSS stands for Cascading Style Sheets. CSS allows you to define elements of html. In other words, CSS allows you to change the way something looks on HTML. It can change the color of fonts, add borders, make animations, and much more.</p>
+				<h2 class="Basic_CSS"> Basic CSS</h2>
+				<h3> Getting Started </h3>
+					<p>Create a document and save it as a CSS document. In order for CSS to work on your html document, you must have the following tag  right above the html tag.<br><br>
+					&lt;link rel="stylesheet" type="text/css" href="(name).css"/&gt;<br><br>
+					This tag tells your HTML document to reference your css document.</p>
+					
+				<h3 class="CSS_Work"> Working with CSS</h3>
+					<p>In order to work with CSS, start by putting the elements you want to edit in a div class. Name your class anything you want to. Then go to your CSS document and type a period (.) followed by the class name. Place an open and closed bracket {} behind the class name. Your CSS properties will be written between the brackets in the form of property:command; (Note: Don't forget the semicolon at the end of your property.)<br><br>
+					Example:<br><br>
+					HTML:<br><br>
+					&lt;div class="Color"&gt;<br>
+					&lt;/div&gt;<br><br>
+					CSS:<br><br>
+					.Color{<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;color:Red;<br>
+					}</p>
+				</div>
+				<h3 class="Ex">Examples of CSS Properties in Use</h3>
+					<div class="font" style="color:white">
+						<p>By using CSS font-size property you can edit the font-size of text by changing the number of pixels the text takes up (height-wise. The program will automatically adjust for width.)<br> Using CSS color property will also allow you to change the color of font (Note: The command is color, not font-color or text-color). CSS can understand keywords (Red, orange, etc), rgb (Ex: rgb (255,0,0), which is red), or RGB hex values (#0000ff, which is blue).<br>
+							<div class="font_example">
+								<div class="Before">Text before I apply font properties</div>
+								<div class="After">Text after I apply font-size property of 30px and color of red</div><br><br>
+								<div class="After_code">.After{<br>
+														&nbsp;&nbsp;&nbsp;&nbsp;font-size: 30px;<br>
+														&nbsp;&nbsp;&nbsp;&nbsp;color: red;<br>
+														}</div>
+							</div>		
+					</div>
+					<div class="border" style="color:white">
+						<p> You can use CSS border-width, border-color, and border-style properties to create borders.</p><br><br>
+						<p class="border_ex"> This is a text box with the following properties:<br>
+								.border_ex{<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;border-width: 12px;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;border-color: white;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;border-style: solid;<br>
+								}
+					</div>
+					<div class="margin_padding">
+						<p>The CSS margin and padding properties define the space between text and other elements on your page. The margin property defines the space outside your text, while the padding property defines the space between the text and it's border.
+						<div class="margin">
+							<p> This text has a margin of 50px </p>
+						</div>
+						<div class="padding">
+							<p> This text has a padding of 50px </p>
+						</div>
+					</div>
+					<h2 class="Links2"> For more CSS click <a href="http://www.w3schools.com/cssreF/" target="blank" link="white">here</a></h2>

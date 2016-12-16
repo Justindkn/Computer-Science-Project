@@ -1,0 +1,101 @@
+<!doctype html>
+<link rel="stylesheet" type="text/css" href="CS_How_To.css"/>
+<html style = "color:white;">
+	<body>
+	<body link="white">
+	<div class="Links" >
+			<nav>
+				<ul>
+					<li><a href="CS_Main2.html"><b>HOME</b></a></li>
+					<li><a href="CS_About_Me.html"><b>Who Am I?</b></a></li>
+					<li><a href="CS_Hardware.html"><b>Hardware</b></a></li>
+					<li><a href="CS_Calculator.html"><b>Calculator</b></a></li>
+					<li><a href="CS_Todo.html"><b>Todo List</b></a></li>
+					<li><a href="CS_Vindinium.html"><b>Vindinium</b></a></li>
+					<li><a href="CS_Big_Project.html"><b>The Big Project</b></a></li>
+				</ul>
+			</nav>
+		</div>
+		<h1 class="JS_Title"> How to Javascript </h2>
+			<p class="JS_Desc"> Javascript, or JS for short, is a language that allows for html elements to be dynamically changed. In other words, it allows for a user (ie: You) to change the elements of an html document through clicking, hovering, etc. Here's an example:</p>
+				<p style="text-align:center;" class="surprise">There is nothing here...<p>
+				<p id="image" style="text-align:center;" >
+					<button id="submitBtn" class="Button" button style="font-size:25px"> Click Me!</button> 
+				</p>
+		<h1 class="Start_Title">Starting off</h1>
+			<p class="Starting_Off" >Now I'll show you how I did that. First, create a document and save it as a javascript document. Alternatively stick .js at the end of the name (Ex: Doc_Name.js). Then go over to your html document and type 
+			<br>&lt;script src&nbsp;=&nbsp;&quot;&nbsp;Doc_Name.js&nbsp;&quot;&gt;&lt;/script&gt; between your &lt;body&gt; tags. You should get something that looks like this:</p>
+				<div class="Starting_Html">
+					<h3> HTML</h3>
+						<img src="JS_STARTING_HTML.PNG">
+				</div>
+			<p class="JS_Var">Just like with CSS, you have to refer the JS document to your HTML document. You can do this by giving an id to an element on your HTML document, then assigning a variable to id with<br> .var x = document.getElementById("Element_Name");<br> on your JS document.  </p>
+			<div class="ID">
+				<h3> HTML</h3>
+						<img src="JS_ID.PNG">
+			</div>
+			<div class="VAR">
+				<h3> Javascript</h3>
+						<img src="JS_VAR.PNG">
+			</div>
+			<div class="Var_How">
+			<p>The JS code above assigns the variable (x) to the value of the element (The paragraph) through the use of the element's ID (Element_Name). Now whenever the variable 'x' is used in a javascript command it will effect the paragraph with the element ID of Element_Name.</p>
+				<p>AKA:</p>
+					<img src="JS_PARAGRAPH_ID.PNG"  width="80%" height="80%">
+				<p>This one</p>
+			<p>Note: It is usually good JS manners to write variables at the top of the document.</p>
+			</div>
+		<div class="Doing_Stuff">
+		<p> Doing stuff with Javascript</p>
+			<p>Now that we know how to refer an element in our HTML to our JS, let's do something with it. First of all, let's change the paragraph tag into a button tag to make this easier and less confusing.</p>
+			<h3> I Present to you my good old friend Our Good Old Friend The Button.</h3>
+		</div>
+				<img src="JS_BUTTON.PNG">
+				<button class="Button2" button style="font-size:25px">Our Good Old Friend The Button</button> 
+		<div class="TRAP"
+			<p>Are you angry right now because you realize that in my above statement I was gramatically correct? <br>Good.</p>
+				<p id="image2" style="text-align:center;" >
+					<button id="submitBtn2" class="Button" button style="font-size:25px"> Oh! A shiny button you should click!</button> 
+				</p>
+		</div>
+		<div class="Example">
+			<p>If you clicked on Our Good Old Friend The Button then you probably noticed that he doesn't do anything. Now let's change that. Let's say that I wanted to make... *Looks over at the Todo list on this site* a checkbox and input box appear when I click on Our Good Old Friend The Button. How would I do that? </p>
+			<p>For the sake of explaining, I'll show you the end result then explain how I did it.</p>
+		</div>
+			<h1> The End Result:</h1>
+			<div id="parent" style="padding: 50px">
+				<h1 id="checkList" class="title">Checklist</h1>
+					<br>&nbsp;&nbsp;<input type="button" id="creation" value="Our Good Old Friend The Button" style="font-size:25px;"> <br><br>
+				<div id="theform_div">
+					<input type="checkbox" value="" />
+					<input type="text" value="" size="30" style="padding: 5px; font-size:25px;"/>
+				</div>
+					<br>&nbsp;&nbsp;<input type="button" value="Delete Checklist" onClick="delete_fields();" style="font-size:25px;"/>
+			<br><br><br>
+			</div>
+			<h1> And the code for it that you might (But probably won't) understand (yet)</h1>
+				<h2> HTML</h2>
+				<div class="html_List">
+					<img src="JS_CHECKLIST_HTML.PNG"width="80%" height="80%">
+				</div><br><br><br>
+				<h2> Javascript </h2>
+				<div class="JS_List">
+					<img src="JS_CHECKLIST_JS.PNG"width="80%" height="80%">
+				</div>
+			<h1>And... Now the explanation:</h1>
+			<h2>The HTML (We're not going to focus too much on it)</h2>
+				<img src="JS_HTML_EX.PNG"width="80%" height="80%">	</li>
+			<h2>And the JS (I'll break it down into steps. Read the text in green)</h2>
+				<ol>
+					<li><h3>Creating an event listener</h3>
+						<img src="JS_CALLING.PNG"width="80%" height="80%">	</li>
+					<li><h3>The Function Explained:</h3>
+						<img src="JS_FUNCTION.PNG"width="80%" height="80%">	</li>
+					<li><h3>The Delete Button:</h3>
+						<img src="JS_DELETE.PNG"width="80%" height="80%"></li>
+				</ol>
+		<script src="CS_How_To.js"></script>
+	</body>
+</html>
+
+

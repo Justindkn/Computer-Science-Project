@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+
+	<!-- This is the code that tells this html document to refer to the proper CSS document (In this case Calculator.css) -->
+	
+	<link rel="stylesheet" type="text/css" href="CS_Calculator.css"/>	
+	
+	<!-- This list is my navigation bar. Clicking on a link will take you to another page. <a href> makes it so that the words appear are clickable and will take you to the designated document. -->
+
+	<div class="Links">
+			<nav>
+				<ul>
+					<li><a href="CS_Main2.html"><b>HOME</b></a></li>
+					<li><a href="CS_About_Me.html"><b>Who Am I</b></a></li>
+					<li><a href="CS_Hardware.html"><b>Hardware</b></a></li>
+					<li><a href="CS_Todo.html"><b>Todo List</b></a></li>
+					<li><a href="CS_Vindinium.html"><b>Vindinium</b></a></li>
+					<li><a href="CS_Big_Project.html"><b>The Big Project</b></a></li>
+					<li><a href="CS_How_To.html"><b>How To</b></a></li>
+				</ul>
+			</nav>
+		</div>
+	<body>
+	
+	<!-- Below is the section that will be my calculator. -->
+	
+	<div class="Calculator">
+		<h1 class="Title">Calculator</h1><br>
+		<p style = "Font-size: 25px">Type in a number in the first box. Select an operation from the drop down. Type in a number in the second box and click calculate. An answer should appear in 
+		the form of an alert on your screen.</p>
+		<br><br><br><br>
+		
+	<!-- This input will create a user input box on my website. The id allows it to be referenced from my javascript document through the use of "var input1." The type (In this case number) allows me to ristrict the range of numbers if need be (ex: 1-5 only). Input style in this case lets me change the font-size of the text inside the input box (I thought the default font was too small). Using the class I can reference the in[ut from my CSS document through ".Input1". &nbsp; is to add spaces between this and the next section, as me pressing spacebar a thousand times won't affect the display of the elements.-->
+	
+		<input id="input1" type="number" name="quantity" input style="font-size:25px" class="Input1" >&nbsp;&nbsp;&nbsp;
+		
+	<!-- Below is the code for a drop down box. Each of the "options" is a possible choice that could be selected by the user. The value allows me to reference each option seperately in JS. The text that actually shows up on the website as options are in between the option tags (Ex: +,-,x,etc). &divide and &radic; are how html reads the division sign and radical sign.-->
+	
+			<select id="dropDown" style="font-size:25px">
+				<option value="None"></option>
+				<option value="Add">+</option>
+				<option value="Subtract">-</option>
+				<option value="Multiply">x</option>
+				<option value="Divide">	&divide </option>
+				<option value="Exponent">^</option>
+				<option value="Root">&radic; </option>
+			</select>
+		&nbsp;&nbsp;&nbsp;
+		
+	<!-- This is my second user input box. The id input2 allows me to reference it from my javascript document. It is basically a copy of input1. The <br> creates a new line.-->
+	
+		<input id="input2" type="number" name="quantity" input style="font-size:25px" class="Input2">
+	<br><br><br><br>
+	
+	<!-- This is my submit button. I can reference to it in JS to make it so it actually does something. -->
+	
+		<div class="SButton">
+			<button id="submitBtn" button style="font-size:25px" > Calculate </button>
+		</div>
+	</div>
+	
+	<!-- This is another navbar that takes you to the previous page, next page, or home. It is just for easy access to the next or previous page. -->
+	
+			<div class="Links_2">
+				<nav>
+					<ul>
+						<li><a href="CS_Hardware.html"><b><<< Back</b></a></li>
+						<li><a href="CS_Main2.html"><b>>>> Home <<<</b></a></li>
+						<li><a href="CS_Todo.html"><b>Next >>></b></a></li>
+					</ul>
+				</nav>
+			</div>
+			
+		<!-- This is the code that tells this html document to refer to the appropriate Javascript document (In this case Calculator.js) -->
+			
+		<script src="Calculator.js"></script>
+	</body>
+
+
+</html>
