@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="CS_Vindinium.CSS"/>
+<html class="html">
+	<body>
+		<div class="Links">
+			<nav>
+				<ul>
+					<li><a href="CS_Main2.html"><b>HOME</b></a></li>
+					<li><a href="CS_About_Me.html"><b>About Me</b></a></li>
+					<li><a href="CS_Hardware.html"><b>Hardware</b></a></li>
+					<li><a href="CS_Calculator.html"><b>Calculator</b></a></li>
+					<li><a href="CS_Todo.html"><b>Todo List</b></a></li>
+					<li><a href="CS_Big_Project.html"><b>The Big Project</b></a></li>
+					<li><a href="CS_How_To.html"><b>How To</b></a></li>
+				</ul>
+			</nav>
+		</div>
+			<p><img src="Vindinium Title.PNG"
+            width="30%" height="30%"></p>
+			<p><img src="http://rwdc2.com/files/forest.png"
+            width="40%" height="40%"></p>
+		<div class = "What">
+			<h1 class = "Title1"> What is Vindinium? </h1>
+				<p> Vindinium is an AI contest in which you create an AI that controls one of four "heroes" on the map. Each AI, or "bot" has 100 health. Scattered around the map are "mines" and "taverns." Standing next to a mine will claim it; however, you will lose 20 health. Standing next to a tavern will restore 50 health, at the cost of 2 gold. Each turn the bot will move one tile, lose one health due to "thirst", and get one "gold" from each mine they own. The objective of the game is to have the most gold by the end of a preset number of turns.
+		</div>
+		
+		<div class = "What2">
+			<h1 class = "Title2"> So what does my Vindinium Bot do? </h1>
+				<p> Basically, my bot does the following things:
+				<div class = "What3">
+					<ul>
+						<li> Run to a tavern if it's below 60 hp</li>
+						<li> Attack a bot if it's within 5 tiles of my bot and has less health than my bot.</li>
+						<li> Run away to a tavern if an enemy bot is within 4 tiles of my bot and has more health than my bot </li> 
+						<li> Attack a botmine if it has more than 60 hp </li>
+						<li> Attack a freemine if no enemy bots / mines are availible.</li>
+					</ul>
+				</div>
+		</div>
+		<div class = "How1">
+			<h1 class = "Title3">How does it do it? </h1>
+				<h2>Overview</h2> 
+				<div class = "How2">
+					<ol>
+						<li><p>In the first section of my code, I defined a few variables and my arrays.</p></li>
+						
+						<li><p>Next, I created an if , else if , else statement. I gave each statement a task to complete under certain conditions. </p></li>
+						
+						<li><p>Finally, in the last section (3) I assigned a function to each task. If the task was chosen then it would perform that funcion. </p></li>
+					</ol>
+				</div>
+		</div>
+		<div class = "Code1">
+			<h2>The Code (Examples and how they work)</h2>		
+			<p>Note: These are just examples from each section of my code. They do not contain all of it</p>
+		</div>
+				<div class = "Code2">
+					<h3> Part One: Defining my Variables </h3>
+			
+					<code>var enemyMines = <br>
+							&nbsp;&nbsp; if(bot.yourBot.id !=1) enemyMines = enemyMines.concat(bot.bot1mines); <br>
+							&nbsp;&nbsp; if(bot.yourBot.id !=2) enemyMines = enemyMines.concat(bot.bot2mines); <br>
+							&nbsp;&nbsp; if(bot.yourBot.id !=3) enemyMines = enemyMines.concat(bot.bot3mines); <br>
+							&nbsp;&nbsp; if(bot.yourBot.id !=4) enemyMines = enemyMines.concat(bot.bot4mines); <br><br> 
+							
+							&nbsp;&nbsp;var mines = enemyBots[0].mines.concat(enemyBots[1].mines, enemyBots[2].mines, bot.freeMines);</code><br><br>
+							
+					<p>Here I defined my variable, in this case, mines. I began by defining the variable "enemyMines" as the mines of bot1, bot2, bot3, and bot4, therefor creating an array. I then defined the variable "mines" as the mines of all the other bots and the "free" (AKA: Unclaimed) mines.</p>
+				</div>
+					
+				<div class = "Code3">	
+					<h3> Part Two: The If/Else If/Else statement </h3>
+					<code>if (bot.yourBot.life < 60 <br>
+							){ <br>
+							task = "taverns"; <br>
+							} <br> <br>
+							
+						else if (bot.yourBot.life > enemyBots[0].life <br>
+							&& bot.findDistance(myPos, enemyBots[0].posArray) < 5 <br>
+							&& enemyBots[0].mineCount > 1 <br>
+							){ <br>
+							task = "attack enemy 1"; <br>
+							} <br> <br>
+							
+						else { <br>
+							task = "freemines"; <br>
+							} <br> <br>
+							</code>				
+					
+					<p>In this portion of my code, I assigned a task to be completed given the stated conditions. I began by saying that "If my bot's health is below 60, perform the task: taverns." </p>
+					
+					<p>If my bot has more than 60 health, then it will move onto the else/if statement. In this case "If my bot's health is greater than enemyBot[0]'s (The first enemy bot listed in the array enemyBots) health, and the distance from my bot to the other is less than 5, AND the other bot has more than 1 mine, perform the task: Attack enemy bot 1."</p>
+					
+					<p>If none of the other conditions are met, then my bot will perform the else statement: freemines.
+				</div>
+				<div class = "Code4">
+					<h3> Part Three: The "task"</h3>
+						<p> The task I use as and example here is just for finding the nearest tavern.</p>
+						<code>var closestTavern = bot.taverns[0]</code>
+						<p> I start of the function by defining the variable "closestTavern" as bot.taverns[0], or the position of the tavern assigned the value of "0" (AKA: the first tavern).</p>
+				
+					<code>for(i = 0; i < bot.taverns.length; i++)<br>
+									(Insert function here)</code>
+						<p>This is a javascript "for loop". It starts by creating a variable "i" and assigning it a value of 0. Then it reads the condition next to it; In this case, <code>i < bot.taverns.length</code>. Let's say that the length (number) of "taverns" is 4. Since 0 is less than 4, the loop would perform the function listed below. Finally, the loop would add 1 to the value of "i" (0 + 1 = 1). The loop would continue until the condition is no longer true (In this case, when "i" = 4)</p>
+			
+					<code>if(bot.findDistance(myPos, closestTavern) > bot.findDistance(myPos, bot.taverns[i])) {
+                    <br> closestTavern = bot.taverns[i];}</code>
+						<p>Here's the general fomat of the function I assigned to my javascript "for loops". First I would find the distance from my bot to the first tavern. Next I would find the distance from my bot to the other taverns. If the distance between my bot to the first tavern is greater than my bot to the other tavern, then the closest tavern would be the other tavern. If it isn't, then JS will add 1 to the tavern value, making it bot.taverns[1] (the second tavern) and once again check the distance to the others. It will continue this until all the taverns are checked.</p>
+			
+					<code>myDir = bot.findPath(myPos, closestTavern);</code>
+						<p>The code above sets the direction my bot will travel by finding a path between my position and the closest tavern calculated by the funciton above.
+				</div>
+			<nav>
+				<ul>
+					<li><a href="CS_Todo.html"><b><<< To End</b></a></li>
+					<li><a href="CS_Main2.html"><b>>>> Home <<<</b></a></li>
+					<li><a href="CS_BigProject.html"><b>Next >>></b></a></li>
+				</ul>
+			</nav>
+
+		</div>
+	</body>
+</html>

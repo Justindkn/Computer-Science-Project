@@ -1,0 +1,92 @@
+html{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.What{
+	margin: 50px 20% 50px 20%;
+	border: 10px solid white;
+}
+.What2{
+	margin: 50px 20% 50px 20%;
+	border: 10px solid white;
+}
+
+.What3{
+	text-align: left;
+	padding-left: 10%;
+}
+
+.How1{
+	margin: 50px 20% 50px 20%;
+	border: 10px solid white;
+}
+
+
+.How2{
+	text-align: left;
+	padding-left: 10%;
+}
+
+.Code{
+	margin: 50px 20% 50px 20%;
+	border: 10px solid white;
+}
+
+.Code1{
+	margin: 100px 30% 50px 30%;
+	border: 10px solid white;
+	text-align: left;
+	padding: 30px;
+}
+
+.Code2{
+	margin: 50px 20% 50px 20%;
+	border: 10px solid white;
+	text-align: left;
+	padding: 30px;
+}
+
+.Code3{
+	margin: 50px 20% 50px 20%;
+	border: 10px solid white;
+	text-align: left;
+	padding: 30px;
+}
+
+.Code4{
+	margin: 50px 20% 50px 20%;
+	border: 10px solid white;
+	text-align: left;
+	padding: 30px;
+}
+
+nav{
+	margin-bottom:50px;
+	margin-top:50px;
+}
+
+nav li {
+	padding:10px;
+	display: inline;
+	background-color:white;
+	Border-style:solid;
+	border-width:12px;
+	border-color: orange;
+	text-align: center;
+	color:white;
+	margin: auto;
+	margin: 20px;
+}
+
+nav ul {
+	display: inline;
+	font-size: 20px;
+	text-align: center;
+	color:white;
+}
+
+a:visited {
+  color : blue;
+}
