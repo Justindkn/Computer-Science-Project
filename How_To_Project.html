@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="CS_How_To.css"/>
+<html class="html">
+	<body link="white">
+		<div class="Links">
+			<nav>
+				<ul>
+					<li><a href="CS_Main2.html"><b>HOME</b></a></li>
+					<li><a href="CS_About_Me.html"><b>Who Am I?</b></a></li>
+					<li><a href="CS_Hardware.html"><b>Hardware</b></a></li>
+					<li><a href="CS_Calculator.html"><b>Calculator</b></a></li>
+					<li><a href="CS_Todo.html"><b>Todo List</b></a></li>
+					<li><a href="CS_Vindinium.html"><b>Vindinium</b></a></li>
+					<li><a href="CS_Big_Project.html"><b>The Big Project</b></a></li>
+				</ul>
+			</nav>
+			
+			<h1 class="Main_Title"> How to... Big Project?</h1>
+			
+			<h2 class="Overview"> Project Overview </h2>
+			<p> At the beginning of this period of expeditions we were asked to design and carry out a project that involved our knowledge of HTML, CSS, and JS. I decided to make a "text-to-letter-design-maker-thing." Basically it takes letters you type into a text area and turns it into... say for example... block letters. On this "How to" page I will talking about how my website does the "text-to-letter" part.</p>
+			
+			<div class="How_To_Everything" style = "text-align: left; color: white; padding: 20px; font-size: 20px;">
+			<h2 class="The_HTML">The HTML</h2>
+			<p> For the HTML, basically what I did was create an input box where you can type in text with a textarea tag. I then create dropdowns for font size and text design choice. At the bottom I created another textarea field that would display the transformed words.</p>
+			<h2 class="The_javascript">The Javascript</h2>
+			<p> The javascript of my Big Project wasn't overly complicated, but it was repetitive. <br><br>
+			<code>text1.addEventListener("keyup", checkKeyPressed, false);
+		
+				function checkKeyPressed(e) {<br><br>
+			
+					if(e.keyCode === 32){
+						output1.innerHTML += &quot;<img height = \&quot;&quot;+input2.value+&quot;\"&quot;src = Spacebar.PNG>";
+						} <br><br>
+				
+					else if(e.keyCode === 190){
+						output1.innerHTML += &quot;<img height = \&quot;&quot;+input2.value+"&quot;\&quot; src = &quot;+ dropDown.value + &quot;_&quot; + &quot;.&quot; + &quot;.PNG>";}</code><br><br>
+			First I add an event listener "keyup" to make it so this function will only activate when a keyboard key is pressed. Then I put a bunch of if/else statements to tell the function to perform a certain action upon a certain key being pressed. I did this using keyCodes. A keyCode is a number that corresponds to a key on the keyboard. For example, the spacebar is keyCode 32. The function performed when the appropriate keyCode was pressed would insert the proper image into the output area. It does this with innerHTML. Upon being pressed, it takes the value of inpt 2 as the height of the image. Then it finds the value of dropDown(the font style chosen), adds an underscore, adds the name of the text, and adds .PNG. The complete name would be, for example, Block_A.PNG. </p>
+			</div>
+		</div>
+	</body>
+</html>
